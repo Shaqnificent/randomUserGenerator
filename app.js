@@ -1,5 +1,10 @@
-const app = VUE.createApp ({
-    template: '<h1>Hello World</h1>'
+const app = Vue.createApp ({
+   
+    data() {
+        return {
+            firstName: 'john'
+        }
+    }
 })
 
 app.mount('#app')
